@@ -3,14 +3,15 @@
 @tailwind utilities;
 
 :root {
-  --primary: #1e3a5f;
-  --primary-light: #2c4f7a;
-  --whatsapp: #25d366;
-  --whatsapp-dark: #1ebe5c;
-  --bg: #f8fafc;
-  --card-bg: #ffffff;
-  --text: #1e293b;
-  --text-light: #64748b;
+  --primary: #f59e0b;
+  --primary-light: #fbbf24;
+  --whatsapp: #22c55e;
+  --whatsapp-dark: #16a34a;
+  --bg-dark: #0a1628;
+  --bg-darker: #060f1e;
+  --card-bg: linear-gradient(145deg, #0f1e35 0%, #0a1628 100%);
+  --text: #f1f5f9;
+  --text-light: #94a3b8;
 }
 
 html {
@@ -19,53 +20,57 @@ html {
 
 body {
   font-family: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", sans-serif;
-  background: var(--bg);
   color: var(--text);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-bottom: 2rem;
+  min-height: 100vh;
+  background: 
+    radial-gradient(circle at 50% 0%, rgba(30, 58, 95, 0.4) 0%, transparent 50%),
+    radial-gradient(circle at 0% 100%, rgba(15, 30, 53, 0.5) 0%, transparent 50%),
+    linear-gradient(180deg, #0a1628 0%, #060f1e 100%);
+  background-attachment: fixed;
 }
 
 /* ============================================
-   أزرار الواتساب — CSS صريح لضمان الظهور
+   أزرار الواتساب
    ============================================ */
 .btn-whatsapp {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
   gap: 0.5rem !important;
-  background-color: #25d366 !important;
+  background-color: #22c55e !important;
   color: #ffffff !important;
   font-weight: 700 !important;
-  font-size: 1rem !important;
-  padding: 0.8rem 1.2rem !important;
-  border-radius: 9999px !important;
+  font-size: 0.95rem !important;
+  padding: 0.85rem 1.2rem !important;
+  border-radius: 10px !important;
   text-decoration: none !important;
   border: none !important;
   cursor: pointer !important;
   width: 100% !important;
   text-align: center !important;
-  margin-top: 0.75rem !important;
-  box-shadow: 0 2px 8px rgba(37, 211, 102, 0.3) !important;
-  transition: background-color 0.2s ease, transform 0.15s ease,
-    box-shadow 0.2s ease !important;
+  margin-top: 1rem !important;
+  box-shadow: 0 4px 12px rgba(34, 197, 94, 0.25) !important;
+  transition: all 0.2s ease !important;
   -webkit-tap-highlight-color: transparent !important;
 }
 
 .btn-whatsapp:hover {
-  background-color: #1ebe5c !important;
-  box-shadow: 0 6px 16px rgba(37, 211, 102, 0.4) !important;
+  background-color: #16a34a !important;
+  box-shadow: 0 6px 20px rgba(34, 197, 94, 0.4) !important;
   transform: translateY(-1px) !important;
 }
 
 .btn-whatsapp:active {
-  transform: scale(0.97) !important;
+  transform: scale(0.98) !important;
 }
 
 .btn-whatsapp svg {
-  width: 20px !important;
-  height: 20px !important;
+  width: 18px !important;
+  height: 18px !important;
   fill: #ffffff !important;
   flex-shrink: 0 !important;
   display: block !important;
@@ -76,45 +81,35 @@ body {
   display: inline-block !important;
 }
 
-/* ============================================
-   زر الفوتر
-   ============================================ */
 .btn-footer-whatsapp {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
   gap: 0.5rem !important;
-  background-color: #25d366 !important;
-  color: #ffffff !important;
+  background-color: transparent !important;
+  color: #f59e0b !important;
   font-weight: 700 !important;
   font-size: 1rem !important;
-  padding: 0.75rem 2rem !important;
-  border-radius: 9999px !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 10px !important;
   text-decoration: none !important;
-  margin-bottom: 1.25rem !important;
-  box-shadow: 0 2px 8px rgba(37, 211, 102, 0.25) !important;
-  transition: background-color 0.2s ease, transform 0.15s ease !important;
+  transition: all 0.2s ease !important;
   -webkit-tap-highlight-color: transparent !important;
 }
 
 .btn-footer-whatsapp:hover {
-  background-color: #1ebe5c !important;
-  transform: translateY(-1px) !important;
-}
-
-.btn-footer-whatsapp:active {
-  transform: scale(0.97) !important;
+  background-color: rgba(245, 158, 11, 0.1) !important;
 }
 
 .btn-footer-whatsapp svg {
   width: 20px !important;
   height: 20px !important;
-  fill: #ffffff !important;
+  fill: #22c55e !important;
   display: block !important;
 }
 
 .btn-footer-whatsapp span {
-  color: #ffffff !important;
+  color: #f59e0b !important;
 }
 
 /* ============================================
