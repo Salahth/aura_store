@@ -27,9 +27,9 @@ export const products: Product[] = [
 },
   {
   id: "fast-cooling-hoco-gm26",
-  name: "FAST COOLING HOCO GM26",[cite: 11]
+  name: "FAST COOLING HOCO GM26",
   price: 1250,
-  desc: "مبرد هواتف ذكية من HOCO لتبريد سريع بـ 3 مستويات سرعة، مزود بشاشة رقمية لمراقبة درجة الحرارة في الوقت الفعلي، ومناسب للهواتف بحجم من 4.5 إلى 7 بوصات.",[cite: 11]
+  desc: "مبرد هواتف ذكية من HOCO لتبريد سريع بـ 3 مستويات سرعة، مزود بشاشة رقمية لمراقبة درجة الحرارة في الوقت الفعلي، ومناسب للهواتف بحجم من 4.5 إلى 7 بوصات.",
   img: "https://i.ibb.co/C5KFRG5y/1790348226508.jpg",
 },
     {
@@ -48,23 +48,23 @@ export const products: Product[] = [
 },
     {
   id: "chrg-samsung-pd-25w-new",
-  name: "CHRG. SAMSUNG PD 25W NEW", //[cite: 6]
+  name: "CHRG. SAMSUNG PD 25W NEW", 
   price: 1850,
-  desc: "شاحن سريع من سامسونج بقدرة 25 واط مع كابل Type-C إلى Type-C، يتميز بأداء عالٍ ودعم للشحن السريع مع دخل جهد متعدد (100-240V).", //[cite: 6]
+  desc: "شاحن سريع من سامسونج بقدرة 25 واط مع كابل Type-C إلى Type-C، يتميز بأداء عالٍ ودعم للشحن السريع مع دخل جهد متعدد (100-240V).", 
   img: "https://i.ibb.co/KpTLWw5D/1790348255192.jpg",
 },
     {
   id: "stylus-pen-green-lion-3in1",
-  name: "STYLUS PEN GREEN LION 3in1",[cite: 12]
+  name: "STYLUS PEN GREEN LION 3in1",
   price: 1550,
-  desc: "قلم لمس 3 في 1 من Green Lion (GL-PEN7) مصنوع من سبائك الألومنيوم، يتميز برؤوس قابلة للتبديل (جاف، قرص، وشبكي) مع غطاء مغناطيسي واستجابة دقيقة وسلسة وتوافق شامل مع مختلف الشاشات اللمسية.",[cite: 12]
+  desc: "قلم لمس 3 في 1 من Green Lion (GL-PEN7) مصنوع من سبائك الألومنيوم، يتميز برؤوس قابلة للتبديل (جاف، قرص، وشبكي) مع غطاء مغناطيسي واستجابة دقيقة وسلسة وتوافق شامل مع مختلف الشاشات اللمسية.",
   img: "https://i.ibb.co/XrqkxMjT/1790348217530.jpg",
 },
     {
   id: "clavier-jedel-k500",
-  name: "CLAVIER JEDEL K500",[cite: 10]
+  name: "CLAVIER JEDEL K500",
   price: 1550,
-  desc: "لوحة مفاتيح (كيبورد) سلكية من JEDEL تحتوي على 104 أزرار مع إضاءة خلفية RGB بـ 7 ألوان، تتميز بتصميم مريح وتجربة كتابة خفيفة وسلسة.",[cite: 10]
+  desc: "لوحة مفاتيح (كيبورد) سلكية من JEDEL تحتوي على 104 أزرار مع إضاءة خلفية RGB بـ 7 ألوان، تتميز بتصميم مريح وتجربة كتابة خفيفة وسلسة.",
   img: "https://i.ibb.co/9m0Jfc7w/1790348236454.jpg",
 },
   {
