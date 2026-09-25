@@ -19,6 +19,13 @@ export const products: Product[] = [
   img: "https://i.ibb.co/cch6HhdT/1790343959227.jpg",
 }
   {
+  id: "airpods-hoco-vrac",
+  name: "AirPods HOCO Vrac", //[cite: 3]
+  price: 950,
+  desc: "سماعات أذن لاسلكية أصلية من HOCO بدون علبة (Vrac)، باللون الأبيض وتأتي مع ضمان.", //[cite: 3]
+  img: "https://i.ibb.co/dwzBCcd0/1790344363639.jpg",
+}
+  {
   id: "airpods-saiva-t50",
   name: "AirPods SAIVA T50",
   price: 2300,
