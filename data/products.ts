@@ -19,11 +19,11 @@ export const products: Product[] = [
   img: "https://i.ibb.co/cch6HhdT/1790343959227.jpg",
 },
   {
-  id: "airpods-hoco-vrac",
-  name: "AirPods HOCO Vrac", //[cite: 3]
-  price: 950,
-  desc: "سماعات أذن لاسلكية أصلية من HOCO بدون علبة (Vrac)، باللون الأبيض وتأتي مع ضمان.", //[cite: 3]
-  img: "https://i.ibb.co/dwzBCcd0/1790344363639.jpg",
+  id: "airpods-saiva-t50",
+  name: "AirPods SAIVA T50",
+  price: 2300,
+  desc: "سماعات لاسلكية مريحة وثابتة مع اقتران تلقائي، وزمن شحن يدوم ساعتين، تأتي مع حافظة حماية سيليكون مقاومة للصدمات والغبار.",
+  img: "https://i.ibb.co/gZkcQ2LP/1790344914724.jpg",
 },
   {
   id: "flash-disk-nh-32go",
@@ -33,10 +33,11 @@ export const products: Product[] = [
   img: "Https://i.ibb.co/6cLZsTSN/1790345252326.jpg",
 },
   {
-  id: "airpods-saiva-t50",
-  name: "AirPods SAIVA T50",
-  price: 2300,
-  desc: "سماعات لاسلكية مريحة وثابتة مع اقتران تلقائي، وزمن شحن يدوم ساعتين، تأتي مع حافظة حماية سيليكون مقاومة للصدمات والغبار.",
-  img: "https://i.ibb.co/gZkcQ2LP/1790344914724.jpg",
+  id: "microphone-hoco-l20-t-c",
+  name: "MICROPHONE HOCO L20 T-C", //[span_0](start_span)[span_0](end_span)
+  price: 2250,
+  desc: "ميكروفون لاسلكي اتجاهي بمستقبل منفذ Type-C، مزود ببطارية سعة 60mAh تمنح استقلالية تشغيل من 3 إلى 4 ساعات مع مدة شحن تدوم ساعتين.", //[span_1](start_span)[span_1](end_span)
+  img: "https://i.ibb.co/B54rLPZK/1790345712008.jpg",
 },
+
 ];
