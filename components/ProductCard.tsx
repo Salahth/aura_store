@@ -21,7 +21,7 @@ export default function ProductCard({ product, index }: Props) {
       }}
     >
       {/* صورة المنتج — بدون شارات */}
-      <div className="w-full aspect-[4/5] relative overflow-hidden group">
+      <div className="w-full aspect-[1/1] relative overflow-hidden group">
         <div
           className="absolute inset-0"
           style={{
