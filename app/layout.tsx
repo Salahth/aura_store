@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Aura Store | منتجات مختارة",
-  description: "كل ما يحتاجه طلاب الإقامة من إلكترونيات واكسسوارات في مكان واحد",
+  description: "كل ما يحتاجه الطلاب من إلكترونيات واكسسوارات في مكان واحد",
   icons: {
     icon: "/icon.png",
     shortcut: "/favicon.ico",
