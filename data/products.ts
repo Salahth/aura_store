@@ -26,6 +26,13 @@ export const products: Product[] = [
   img: "https://i.ibb.co/dwzBCcd0/1790344363639.jpg",
 },
   {
+  id: "flash-disk-nh-32go",
+  name: "FLASH DISK NH 32GO", //[span_0](start_span)[span_0](end_span)
+  price: 1350,
+  desc: "ذاكرة فلاش USB بسعة 32 جيجابايت من New Horizon (LINA LD-01)، تتميز بهيكل معدني متين مقاوم للماء والصدمات وتصميم حديث مزود بحلقة تثبيت.", //[span_1](start_span)[span_1](end_span)
+  img: "Https://i.ibb.co/6cLZsTSN/1790345252326.jpg",
+},
+  {
   id: "airpods-saiva-t50",
   name: "AirPods SAIVA T50",
   price: 2300,
