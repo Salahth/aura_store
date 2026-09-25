@@ -2,8 +2,8 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "متجر النخبة | منتجات مختارة",
-  description: "منتجات مختارة • أسعار مناسبة • توصيل متوفر",
+  title: "Aura Store",
+  description: "كل ما يحتاجه طلاب الإقامة من إلكترونيات واكسسوارات في مكان واحد. اكتشفوا أحدث المنتجات بأسعار مغرية وعروض استثنائية، واطلبوا ما يناسبكم بسهولة وبضغطة زر دون عناء البحث أو التنقل. لا تفوّتوا الفرصة واستفيدوا من عروضنا قبل نفاد المنتجات",
 };
 
 export const viewport: Viewport = {
