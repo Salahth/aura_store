@@ -12,6 +12,13 @@ export const products: Product[] = [
     img: "https://i.ibb.co/ZbsCzTk/Gemini-Generated-Image-sefmamsefmamsefm.jpg",
   },
   {
+  id: "gevo-p11-10000mah",
+  name: "GEVO P11 10000mAh", //[span_0](start_span)[span_0](end_span)
+  price: 1600,
+  desc: "شاحن سفري (Power Bank) بسعة 10000 مللي أمبير بتصميم مدمج وأنيق، مزود بشاشة LED رقمية لعرض مستوى البطارية ودعم منافذ إدخال وإخراج متعددة بقدرة 5V/2A.", //[span_1](start_span)[span_1](end_span)
+  img: "https://i.ibb.co/cch6HhdT/1790343959227.jpg",
+}
+  {
   id: "airpods-saiva-t50",
   name: "AirPods SAIVA T50",
   price: 2300,
