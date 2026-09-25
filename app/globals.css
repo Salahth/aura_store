@@ -27,6 +27,99 @@ body {
   padding-bottom: 2rem;
 }
 
+/* ============================================
+   أزرار الواتساب — CSS صريح لضمان الظهور
+   ============================================ */
+.btn-whatsapp {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.5rem !important;
+  background-color: #25d366 !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  font-size: 1rem !important;
+  padding: 0.8rem 1.2rem !important;
+  border-radius: 9999px !important;
+  text-decoration: none !important;
+  border: none !important;
+  cursor: pointer !important;
+  width: 100% !important;
+  text-align: center !important;
+  margin-top: 0.75rem !important;
+  box-shadow: 0 2px 8px rgba(37, 211, 102, 0.3) !important;
+  transition: background-color 0.2s ease, transform 0.15s ease,
+    box-shadow 0.2s ease !important;
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1ebe5c !important;
+  box-shadow: 0 6px 16px rgba(37, 211, 102, 0.4) !important;
+  transform: translateY(-1px) !important;
+}
+
+.btn-whatsapp:active {
+  transform: scale(0.97) !important;
+}
+
+.btn-whatsapp svg {
+  width: 20px !important;
+  height: 20px !important;
+  fill: #ffffff !important;
+  flex-shrink: 0 !important;
+  display: block !important;
+}
+
+.btn-whatsapp span {
+  color: #ffffff !important;
+  display: inline-block !important;
+}
+
+/* ============================================
+   زر الفوتر
+   ============================================ */
+.btn-footer-whatsapp {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.5rem !important;
+  background-color: #25d366 !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  font-size: 1rem !important;
+  padding: 0.75rem 2rem !important;
+  border-radius: 9999px !important;
+  text-decoration: none !important;
+  margin-bottom: 1.25rem !important;
+  box-shadow: 0 2px 8px rgba(37, 211, 102, 0.25) !important;
+  transition: background-color 0.2s ease, transform 0.15s ease !important;
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+.btn-footer-whatsapp:hover {
+  background-color: #1ebe5c !important;
+  transform: translateY(-1px) !important;
+}
+
+.btn-footer-whatsapp:active {
+  transform: scale(0.97) !important;
+}
+
+.btn-footer-whatsapp svg {
+  width: 20px !important;
+  height: 20px !important;
+  fill: #ffffff !important;
+  display: block !important;
+}
+
+.btn-footer-whatsapp span {
+  color: #ffffff !important;
+}
+
+/* ============================================
+   أنيميشن البطاقات
+   ============================================ */
 @keyframes fadeUp {
   from {
     opacity: 0;
@@ -56,11 +149,5 @@ body {
     animation: none;
     opacity: 1;
     transform: none;
-  }
-}
-
-@media (hover: none) {
-  .group:hover .group-hover\:scale-105 {
-    transform: none !important;
   }
 }
