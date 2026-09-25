@@ -81,5 +81,12 @@ export const products: Product[] = [
   desc: "ذاكرة فلاش USB بسعة 32 جيجابايت من New Horizon (LINA LD-01)، تتميز بهيكل معدني متين مقاوم للماء والصدمات وتصميم حديث مزود بحلقة تثبيت.", //[span_1](start_span)[span_1](end_span)
   img: "Https://i.ibb.co/6cLZsTSN/1790345252326.jpg",
 },
+  {
+  id: "manette-sony-ps4",
+  name: "MANETTE SONY PS4",
+  price: 2650,
+  desc: "ذراع تحكم لاسلكي (DualShock 4) لجهاز بلايستيشن 4 باللون الأسود، مزود بسماعة داخلية، تقنية اهتزاز متقدمة، واستجابة سريعة عند الاتصال عبر USB.",
+  img: "https://i.ibb.co/nGbsvkd/1790349957346.jpg",
+},
 
 ];
