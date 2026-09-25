@@ -10,7 +10,7 @@ export default function Header() {
       <div className="max-w-3xl mx-auto bg-slate-900/40 border border-slate-700/50 rounded-2xl px-6 py-5 backdrop-blur-sm">
         <p className="text-slate-300 text-sm md:text-base leading-relaxed text-center">
           كل ما يحتاجه الطلاب من إلكترونيات واكسسوارات في مكان واحد. اكتشفوا أحدث المنتجات
-          بأسعار مصرية وعروض استثنائية، واطلبوا ما يناسبكم بسهولة وبضغطة زر دون عناء البحث أو
+          بأسعار مغرية وعروض استثنائية، واطلبوا ما يناسبكم بسهولة وبضغطة زر دون عناء البحث أو
           التنقل. لا تفوّتوا الفرصة واستفيدوا من عروضنا قبل نفاد المنتجات
         </p>
       </div>
