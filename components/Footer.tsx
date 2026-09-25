@@ -13,14 +13,16 @@ export default function Footer() {
         {/* فاصل علوي */}
         <div className="border-t border-slate-700/40 mb-6" />
 
-        {/* نص الاستفسار + زر */}
-        <div className="flex flex-col sm:flex-row items-center justify-center text-center gap-3 text-sm text-slate-400 mb-4">
-          <span>تبحثون عن منتج أو لديكم استفسار حول أحد المنتجات؟ تواصلوا معنا عبر واتساب، وسنسعى لتوفير ما تحتاجونه.</span>
+        {/* نص الاستفسار + زر (عمودي ومُوسّط بالكامل) */}
+        <div className="flex flex-col items-center justify-center text-center gap-3 text-sm text-slate-400 mb-4">
+          <p className="max-w-xl mx-auto leading-relaxed">
+            تبحثون عن منتج أو لديكم استفسار حول أحد المنتجات؟ تواصلوا معنا عبر واتساب، وسنسعى لتوفير ما تحتاجونه.
+          </p>
           <a
             href={contactUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-footer-whatsapp shrink-0"
+            className="btn-footer-whatsapp"
           >
             <span>تواصل معنا على واتساب</span>
             <svg
