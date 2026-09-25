@@ -28,7 +28,7 @@ export const products: Product[] = [
   {
   id: "fast-cooling-hoco-gm26",
   name: "FAST COOLING HOCO GM26",
-  price: 1250,
+  price: 2200,
   desc: "مبرد هواتف ذكية من HOCO لتبريد سريع بـ 3 مستويات سرعة، مزود بشاشة رقمية لمراقبة درجة الحرارة في الوقت الفعلي، ومناسب للهواتف بحجم من 4.5 إلى 7 بوصات.",
   img: "https://i.ibb.co/C5KFRG5y/1790348226508.jpg",
 },
