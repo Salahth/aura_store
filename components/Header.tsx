@@ -1,18 +1,19 @@
 export default function Header() {
   return (
-    <header className="text-center pt-10 pb-6 px-4 bg-gradient-to-b from-white to-slate-50">
-      <div className="flex items-center justify-center gap-2 text-4xl font-extrabold text-primary tracking-tight mb-2">
-        <span className="text-3xl">🛍️</span>
-        <span>متجر النخبة</span>
+    <header className="text-center pt-10 pb-6 px-4">
+      {/* عنوان المتجر */}
+      <h1 className="text-4xl md:text-5xl font-extrabold text-amber-400 tracking-tight mb-8">
+        Aura Store
+      </h1>
+
+      {/* صندوق الوصف */}
+      <div className="max-w-3xl mx-auto bg-slate-900/40 border border-slate-700/50 rounded-2xl px-6 py-5 backdrop-blur-sm">
+        <p className="text-slate-300 text-sm md:text-base leading-relaxed text-center">
+          كل ما يحتاجه طلاب الإقامة من إلكترونيات واكسسوارات في مكان واحد. اكتشفوا أحدث المنتجات
+          بأسعار مصرية وعروض استثنائية، واطلبوا ما يناسبكم بسهولة وبضغطة زر دون عناء البحث أو
+          التنقل. لا تفوّتوا الفرصة واستفيدوا من عروضنا قبل نفاد المنتجات
+        </p>
       </div>
-      <p className="text-base text-slate-500">
-        منتجات مختارة
-        <span className="text-primary font-bold mx-1">•</span>
-        أسعار مناسبة
-        <span className="text-primary font-bold mx-1">•</span>
-        توصيل متوفر
-      </p>
-      <div className="w-[60px] h-1 bg-primary rounded mx-auto mt-6 opacity-30" />
     </header>
   );
 }
