@@ -30,6 +30,6 @@ export const products: Product[] = [
   name: "AirPods SAIVA T50",
   price: 2300,
   desc: "سماعات لاسلكية مريحة وثابتة مع اقتران تلقائي، وزمن شحن يدوم ساعتين، تأتي مع حافظة حماية سيليكون مقاومة للصدمات والغبار.",
-  img: "https://i.ibb.co/WpkRZ39F/sans-titre-13-1-1.jpg",
+  img: "https://i.ibb.co/gZkcQ2LP/1790344914724.jpg",
 },
 ];
