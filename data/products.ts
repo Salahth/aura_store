@@ -26,11 +26,46 @@ export const products: Product[] = [
   img: "https://i.ibb.co/gZkcQ2LP/1790344914724.jpg",
 },
   {
-  id: "flash-disk-nh-32go",
-  name: "FLASH DISK NH 32GO", //[span_0](start_span)[span_0](end_span)
-  price: 1350,
-  desc: "ذاكرة فلاش USB بسعة 32 جيجابايت من New Horizon (LINA LD-01)، تتميز بهيكل معدني متين مقاوم للماء والصدمات وتصميم حديث مزود بحلقة تثبيت.", //[span_1](start_span)[span_1](end_span)
-  img: "Https://i.ibb.co/6cLZsTSN/1790345252326.jpg",
+  id: "fast-cooling-hoco-gm26",
+  name: "FAST COOLING HOCO GM26",[cite: 11]
+  price: 1250,
+  desc: "مبرد هواتف ذكية من HOCO لتبريد سريع بـ 3 مستويات سرعة، مزود بشاشة رقمية لمراقبة درجة الحرارة في الوقت الفعلي، ومناسب للهواتف بحجم من 4.5 إلى 7 بوصات.",[cite: 11]
+  img: "https://i.ibb.co/C5KFRG5y/1790348226508.jpg",
+},
+    {
+  id: "enceinte-mobiland-bt-26",
+  name: "ENCEINTE MOBILAND BT-26",
+  price: 2950,
+  desc: "مكبر صوت بلوتوث لاسلكي بقدرة 10 واط وتقنية Bluetooth 5.4، مزود ببطارية سعة 1200mAh تمنح زمن تشغيل من 2 إلى 4 ساعات مع مستوى صوت قوي ونقي.",
+  img: "https://i.ibb.co/fzjfMXVL/1790348242594.jpg",
+},
+    {
+  id: "souris-hoco-gm14",
+  name: "SOURIS HOCO GM14",
+  price: 1250,
+  desc: "فأرة (ماوس) لاسلكية من HOCO تعمل بتقنية 2.4GHz ودقة 1200DPI، تتميز بوزن خفيف (60 جرام) وعمر افتراضي للأزرار يصل إلى 3 ملايين ضغطة.",
+  img: "https://i.ibb.co/hx9YsMfN/1790348249587.jpg",
+},
+    {
+  id: "chrg-samsung-pd-25w-new",
+  name: "CHRG. SAMSUNG PD 25W NEW", //[cite: 6]
+  price: 1850,
+  desc: "شاحن سريع من سامسونج بقدرة 25 واط مع كابل Type-C إلى Type-C، يتميز بأداء عالٍ ودعم للشحن السريع مع دخل جهد متعدد (100-240V).", //[cite: 6]
+  img: "https://i.ibb.co/KpTLWw5D/1790348255192.jpg",
+},
+    {
+  id: "stylus-pen-green-lion-3in1",
+  name: "STYLUS PEN GREEN LION 3in1",[cite: 12]
+  price: 1550,
+  desc: "قلم لمس 3 في 1 من Green Lion (GL-PEN7) مصنوع من سبائك الألومنيوم، يتميز برؤوس قابلة للتبديل (جاف، قرص، وشبكي) مع غطاء مغناطيسي واستجابة دقيقة وسلسة وتوافق شامل مع مختلف الشاشات اللمسية.",[cite: 12]
+  img: "https://i.ibb.co/XrqkxMjT/1790348217530.jpg",
+},
+    {
+  id: "clavier-jedel-k500",
+  name: "CLAVIER JEDEL K500",[cite: 10]
+  price: 1550,
+  desc: "لوحة مفاتيح (كيبورد) سلكية من JEDEL تحتوي على 104 أزرار مع إضاءة خلفية RGB بـ 7 ألوان، تتميز بتصميم مريح وتجربة كتابة خفيفة وسلسة.",[cite: 10]
+  img: "https://i.ibb.co/9m0Jfc7w/1790348236454.jpg",
 },
   {
   id: "microphone-hoco-l20-t-c",
@@ -38,6 +73,13 @@ export const products: Product[] = [
   price: 2250,
   desc: "ميكروفون لاسلكي اتجاهي بمستقبل منفذ Type-C، مزود ببطارية سعة 60mAh تمنح استقلالية تشغيل من 3 إلى 4 ساعات مع مدة شحن تدوم ساعتين.", //[span_1](start_span)[span_1](end_span)
   img: "https://i.ibb.co/B54rLPZK/1790345712008.jpg",
+},
+    {
+  id: "flash-disk-nh-32go",
+  name: "FLASH DISK NH 32GO", //[span_0](start_span)[span_0](end_span)
+  price: 1350,
+  desc: "ذاكرة فلاش USB بسعة 32 جيجابايت من New Horizon (LINA LD-01)، تتميز بهيكل معدني متين مقاوم للماء والصدمات وتصميم حديث مزود بحلقة تثبيت.", //[span_1](start_span)[span_1](end_span)
+  img: "Https://i.ibb.co/6cLZsTSN/1790345252326.jpg",
 },
 
 ];
