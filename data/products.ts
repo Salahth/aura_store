@@ -11,4 +11,11 @@ export const products: Product[] = [
     desc: "سماعات رأس Bluetooth 5.3 بصوت واضح ونطاق اتصال يصل إلى 10 أمتار.",
     img: "https://i.ibb.co/ZbsCzTk/Gemini-Generated-Image-sefmamsefmamsefm.jpg",
   },
+  {
+  id: "airpods-saiva-t50",
+  name: "AirPods SAIVA T50",
+  price: 2300,
+  desc: "سماعات لاسلكية مريحة وثابتة مع اقتران تلقائي، وزمن شحن يدوم ساعتين، تأتي مع حافظة حماية سيليكون مقاومة للصدمات والغبار.",
+  img: "https://i.ibb.co/WpkRZ39F/sans-titre-13-1-1.jpg",
+}
 ];
