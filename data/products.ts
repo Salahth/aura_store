@@ -82,6 +82,13 @@ export const products: Product[] = [
   img: "Https://i.ibb.co/6cLZsTSN/1790345252326.jpg",
 },
   {
+  id: "flash-disk-nh-64go",
+  name: "FLASH DISK NH 64GO",
+  price: 1700,
+  desc: "ذاكرة فلاش USB بسعة 64 جيجابايت (Iron Drive ID-07) من New Horizon، تتميز بنقل بيانات عالي السرعة وتوافق واسع مع الحواسيب المحمولة والمكتبية والطابعات والكاميرات.",
+  img: "https://i.ibb.co/gL5QLMtX/1790420399493.jpg",
+},
+  {
   id: "manette-sony-ps4",
   name: "MANETTE SONY PS4",
   price: 2650,
