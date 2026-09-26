@@ -91,24 +91,14 @@ export const products: Product[] = [
   {
   id: "manette-sony-ps4",
   name: "MANETTE SONY PS4",
-  price: 2650,
+  price: 2700,
   desc: "ذراع تحكم لاسلكي (DualShock 4) لجهاز بلايستيشن 4 باللون الأسود، مزود بسماعة داخلية، تقنية اهتزاز متقدمة، واستجابة سريعة عند الاتصال عبر USB.",
   img: "https://i.ibb.co/nGbsvkd/1790349957346.jpg",
 },
-
-
-
-
-
-
-
-
-
-  
   {
     id: "airpods-hoco-pro",
     name: "AirPods HOCO Pro",
-    price: 950,
+    price: 1050,
     desc: "سماعات HOCO Pro لاسلكية، بلوتوث 5.1، مريحة ومستقرة، اقتران تلقائي، وقت قراءة 6 ساعات ومحادثة 4 ساعات، مدى 10 أمتار.",
     img: "https://i.ibb.co/v400Y4gf/Gemini-Generated-Image-ntmp9tntmp9tntmp.jpg"
   },
