@@ -18,13 +18,13 @@ export const products: Product[] = [
   desc: "شاحن سفري (Power Bank) بسعة 10000 مللي أمبير بتصميم مدمج وأنيق، مزود بشاشة LED رقمية لعرض مستوى البطارية ودعم منافذ إدخال وإخراج متعددة بقدرة 5V/2A.", //[span_1](start_span)[span_1](end_span)
   img: "https://i.ibb.co/cch6HhdT/1790343959227.jpg",
 },
-  {
-  id: "airpods-saiva-t50",
-  name: "AirPods SAIVA T50",
-  price: 2300,
-  desc: "سماعات لاسلكية مريحة وثابتة مع اقتران تلقائي، وزمن شحن يدوم ساعتين، تأتي مع حافظة حماية سيليكون مقاومة للصدمات والغبار.",
-  img: "https://i.ibb.co/sJprhg6K/1790426454319.jpg",
-},
+{
+    id: "airpods-hoco-pro",
+    name: "AirPods HOCO Pro",
+    price: 1050,
+    desc: "سماعات HOCO Pro لاسلكية، بلوتوث 5.1، مريحة ومستقرة، اقتران تلقائي، وقت قراءة 6 ساعات ومحادثة 4 ساعات، مدى 10 أمتار.",
+    img: "https://i.ibb.co/v400Y4gf/Gemini-Generated-Image-ntmp9tntmp9tntmp.jpg"
+  },
   {
   id: "fast-cooling-hoco-gm26",
   name: "FAST COOLING HOCO GM26",
@@ -95,13 +95,6 @@ export const products: Product[] = [
   desc: "ذراع تحكم لاسلكي (DualShock 4) لجهاز بلايستيشن 4 باللون الأسود، مزود بسماعة داخلية، تقنية اهتزاز متقدمة، واستجابة سريعة عند الاتصال عبر USB.",
   img: "https://i.ibb.co/nGbsvkd/1790349957346.jpg",
 },
-  {
-    id: "airpods-hoco-pro",
-    name: "AirPods HOCO Pro",
-    price: 1050,
-    desc: "سماعات HOCO Pro لاسلكية، بلوتوث 5.1، مريحة ومستقرة، اقتران تلقائي، وقت قراءة 6 ساعات ومحادثة 4 ساعات، مدى 10 أمتار.",
-    img: "https://i.ibb.co/v400Y4gf/Gemini-Generated-Image-ntmp9tntmp9tntmp.jpg"
-  },
   {
     id: "airpods-apple-3",
     name: "AirPods Apple 3",
@@ -311,7 +304,13 @@ export const products: Product[] = [
     price: 5350,
     desc: "باور بانك Anker A1653، سعة 5000mAh، شحن سريع 22.5W، تصميم مدمج وخفيف، مثالي للتنقل، متوافق مع Samsung Galaxy والأجهزة الأخرى.",
     img: "https://i.ibb.co/bg6wG5r3/Gemini-Generated-Image-2xaz1j2xaz1j2xaz.jpg"
-  }
-
+  },
+    {
+  id: "airpods-saiva-t50",
+  name: "AirPods SAIVA T50",
+  price: 2300,
+  desc: "سماعات لاسلكية مريحة وثابتة مع اقتران تلقائي، وزمن شحن يدوم ساعتين، تأتي مع حافظة حماية سيليكون مقاومة للصدمات والغبار.",
+  img: "https://i.ibb.co/sJprhg6K/1790426454319.jpg",
+},
 
 ];
