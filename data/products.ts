@@ -121,13 +121,7 @@ export const products: Product[] = [
   },
 
   // 13. ماكينة حلاقة
-  {
-    id: "rasoir-kemei-2024",
-    name: "RASOIR KEMEI 2024",
-    price: 1100,
-    desc: "ماكينة حلاقة كهربائية من KEMEI بنموذج KM-2024، مزودة بمحرك قوي، هيكل من الأستانلس ستيل وABS، بطارية بمدة شحن 8 ساعات ووقت استخدام 50 دقيقة.",
-    img: "https://i.ibb.co/KxyQhnJx/Gemini-Generated-Image-gcrp1rgcrp1rgcrp.jpg",
-  },
+ 
 
   // 14. حقيبة
   {
@@ -247,6 +241,13 @@ export const products: Product[] = [
     price: 2500,
     desc: "سماعات HOCO EQ28 Bird، بلوتوث 5.4، شريحة Blue Trump 5656C، بطارية السماعة 40mAh والعلبة 320mAh، استقلالية 7 ساعات، مادة ABS، وزن 46.5g.",
     img: "https://i.ibb.co/JRBNxg9Z/Gemini-Generated-Image-tffyhptffyhptffy.jpg"
+  },
+   {
+    id: "rasoir-kemei-2024",
+    name: "RASOIR KEMEI 2024",
+    price: 1100,
+    desc: "ماكينة حلاقة كهربائية من KEMEI بنموذج KM-2024، مزودة بمحرك قوي، هيكل من الأستانلس ستيل وABS، بطارية بمدة شحن 8 ساعات ووقت استخدام 50 دقيقة.",
+    img: "https://i.ibb.co/KxyQhnJx/Gemini-Generated-Image-gcrp1rgcrp1rgcrp.jpg",
   },
   {
     id: "joyroom-jr-qp190-mini-10000",
