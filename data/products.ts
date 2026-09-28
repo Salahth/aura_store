@@ -5,7 +5,13 @@ export const STORE_WHATSAPP = "213557211315";
 
 export const products: Product[] = [
   // ====== أولاً: نموذج واحد من كل فئة (في أعلى الصفحة) ======
-
+{
+    id: "airpods-hoco-pro",
+    name: "AirPods HOCO Pro",
+    price: 1050,
+    desc: "سماعات HOCO Pro لاسلكية، بلوتوث 5.1، مريحة ومستقرة، اقتران تلقائي، وقت قراءة 6 ساعات ومحادثة 4 ساعات، مدى 10 أمتار.",
+    img: "https://i.ibb.co/v400Y4gf/Gemini-Generated-Image-ntmp9tntmp9tntmp.jpg"
+  },
   // 1. سماعة رأس
   {
     id: "hoco-w35-max",
@@ -16,21 +22,15 @@ export const products: Product[] = [
   },
 
   // 2. إيربودز
-  {
-    id: "airpods-hoco-pro",
-    name: "AirPods HOCO Pro",
-    price: 1050,
-    desc: "سماعات HOCO Pro لاسلكية، بلوتوث 5.1، مريحة ومستقرة، اقتران تلقائي، وقت قراءة 6 ساعات ومحادثة 4 ساعات، مدى 10 أمتار.",
-    img: "https://i.ibb.co/v400Y4gf/Gemini-Generated-Image-ntmp9tntmp9tntmp.jpg"
-  },
+  
 
   // 3. باور بانك
-  {
-    id: "gevo-p11-10000mah",
-    name: "GEVO P11 10000mAh",
-    price: 1600,
-    desc: "شاحن سفري (Power Bank) بسعة 10000 مللي أمبير بتصميم مدمج وأنيق، مزود بشاشة LED رقمية لعرض مستوى البطارية ودعم منافذ إدخال وإخراج متعددة بقدرة 5V/2A.",
-    img: "https://i.ibb.co/cch6HhdT/1790343959227.jpg",
+   {
+    id: "qualev-p110-10000",
+    name: "QUALEV P110 10000mAh",
+    price: 2200,
+    desc: "باور بانك QUALEV P110، سعة 10,000mAh، خرج حتى 22.5W، منافذ USB-A و USB-C مزدوج، شاشة LED رقمية، تصميم مدمج وأنيق.",
+    img: "https://i.ibb.co/x8rFPtdf/Gemini-Generated-Image-2g98me2g98me2g98.jpg"
   },
 
   // 4. مبرد هواتف
@@ -68,7 +68,13 @@ export const products: Product[] = [
     desc: "شاحن سريع من سامسونج بقدرة 25 واط مع كابل Type-C إلى Type-C، يتميز بأداء عالٍ ودعم للشحن السريع مع دخل جهد متعدد (100-240V).",
     img: "https://i.ibb.co/KpTLWw5D/1790348255192.jpg",
   },
-
+{
+    id: "tondeuse-kemei-232",
+    name: "TONDEUSE KEMEI 232",
+    price: 1150,
+    desc: "ماكينة تشذيب الشعر TONDEUSE KEMEI (موديل kM-232) بمحرك قوي وشاشة LED رقمية، بطارية بسعة 1500mAh وشحن سريع خلال 1.5 ساعة بقوة 5 واط.",
+    img: "https://i.ibb.co/3YdRG53k/Gemini-Generated-Image-5ec74q5ec74q5ec7.jpg",
+  },
   // 8. قلم لمس
   {
     id: "stylus-pen-green-lion-3in1",
@@ -157,13 +163,7 @@ export const products: Product[] = [
     desc: "باور بانك JOYROOM PBF15، سعة 10,000mAh، خرج حتى 22.5W، مخارج 2x USB-A، مدخل/مخرج USB-C، شحن سريع ذكي، شاشة LED رقمية.",
     img: "https://i.ibb.co/LdRtC7ZF/Gemini-Generated-Image-p77e0yp77e0yp77e.jpg"
   },
-  {
-    id: "tondeuse-kemei-232",
-    name: "TONDEUSE KEMEI 232",
-    price: 1150,
-    desc: "ماكينة تشذيب الشعر TONDEUSE KEMEI (موديل kM-232) بمحرك قوي وشاشة LED رقمية، بطارية بسعة 1500mAh وشحن سريع خلال 1.5 ساعة بقوة 5 واط.",
-    img: "https://i.ibb.co/3YdRG53k/Gemini-Generated-Image-5ec74q5ec74q5ec7.jpg",
-  },
+  
   {
     id: "casque-hoco-w55-plus",
     name: "CASQUE HOCO W55 PLUS",
@@ -207,11 +207,11 @@ export const products: Product[] = [
     img: "https://i.ibb.co/mVY5LZxP/Gemini-Generated-Image-5v00fz5v00fz5v00.jpg",
   },
   {
-    id: "qualev-p110-10000",
-    name: "QUALEV P110 10000mAh",
-    price: 2200,
-    desc: "باور بانك QUALEV P110، سعة 10,000mAh، خرج حتى 22.5W، منافذ USB-A و USB-C مزدوج، شاشة LED رقمية، تصميم مدمج وأنيق.",
-    img: "https://i.ibb.co/x8rFPtdf/Gemini-Generated-Image-2g98me2g98me2g98.jpg"
+    id: "gevo-p11-10000mah",
+    name: "GEVO P11 10000mAh",
+    price: 1600,
+    desc: "شاحن سفري (Power Bank) بسعة 10000 مللي أمبير بتصميم مدمج وأنيق، مزود بشاشة LED رقمية لعرض مستوى البطارية ودعم منافذ إدخال وإخراج متعددة بقدرة 5V/2A.",
+    img: "https://i.ibb.co/cch6HhdT/1790343959227.jpg",
   },
   {
     id: "airpods-hoco-ew84",
