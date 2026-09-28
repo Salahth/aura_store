@@ -4,6 +4,9 @@ import { Product } from "@/types/product";
 export const STORE_WHATSAPP = "213557211315";
 
 export const products: Product[] = [
+  // ====== أولاً: نموذج واحد من كل فئة (في أعلى الصفحة) ======
+
+  // 1. سماعة رأس
   {
     id: "hoco-w35-max",
     name: "Casque HOCO W35 Max",
@@ -11,103 +14,162 @@ export const products: Product[] = [
     desc: "سماعات رأس Bluetooth 5.3 بصوت واضح ونطاق اتصال يصل إلى 10 أمتار.",
     img: "https://i.ibb.co/ZbsCzTk/Gemini-Generated-Image-sefmamsefmamsefm.jpg",
   },
+
+  // 2. إيربودز
   {
-  id: "gevo-p11-10000mah",
-  name: "GEVO P11 10000mAh", //[span_0](start_span)[span_0](end_span)
-  price: 1600,
-  desc: "شاحن سفري (Power Bank) بسعة 10000 مللي أمبير بتصميم مدمج وأنيق، مزود بشاشة LED رقمية لعرض مستوى البطارية ودعم منافذ إدخال وإخراج متعددة بقدرة 5V/2A.", //[span_1](start_span)[span_1](end_span)
-  img: "https://i.ibb.co/cch6HhdT/1790343959227.jpg",
-},
-{
     id: "airpods-hoco-pro",
     name: "AirPods HOCO Pro",
     price: 1050,
     desc: "سماعات HOCO Pro لاسلكية، بلوتوث 5.1، مريحة ومستقرة، اقتران تلقائي، وقت قراءة 6 ساعات ومحادثة 4 ساعات، مدى 10 أمتار.",
     img: "https://i.ibb.co/v400Y4gf/Gemini-Generated-Image-ntmp9tntmp9tntmp.jpg"
   },
+
+  // 3. باور بانك
   {
-  id: "fast-cooling-hoco-gm26",
-  name: "FAST COOLING HOCO GM26",
-  price: 2200,
-  desc: "مبرد هواتف ذكية من HOCO لتبريد سريع بـ 3 مستويات سرعة، مزود بشاشة رقمية لمراقبة درجة الحرارة في الوقت الفعلي، ومناسب للهواتف بحجم من 4.5 إلى 7 بوصات.",
-  img: "https://i.ibb.co/C5KFRG5y/1790348226508.jpg",
-},
-    {
-  id: "enceinte-mobiland-bt-26",
-  name: "ENCEINTE MOBILAND BT-26",
-  price: 2950,
-  desc: "مكبر صوت بلوتوث لاسلكي بقدرة 10 واط وتقنية Bluetooth 5.4، مزود ببطارية سعة 1200mAh تمنح زمن تشغيل من 2 إلى 4 ساعات مع مستوى صوت قوي ونقي.",
-  img: "https://i.ibb.co/fzjfMXVL/1790348242594.jpg",
-},
-    {
-  id: "souris-hoco-gm14",
-  name: "SOURIS HOCO GM14",
-  price: 1250,
-  desc: "فأرة (ماوس) لاسلكية من HOCO تعمل بتقنية 2.4GHz ودقة 1200DPI، تتميز بوزن خفيف (60 جرام) وعمر افتراضي للأزرار يصل إلى 3 ملايين ضغطة.",
-  img: "https://i.ibb.co/hx9YsMfN/1790348249587.jpg",
-},
-    {
-  id: "chrg-samsung-pd-25w-new",
-  name: "CHRG. SAMSUNG PD 25W NEW", 
-  price: 1850,
-  desc: "شاحن سريع من سامسونج بقدرة 25 واط مع كابل Type-C إلى Type-C، يتميز بأداء عالٍ ودعم للشحن السريع مع دخل جهد متعدد (100-240V).", 
-  img: "https://i.ibb.co/KpTLWw5D/1790348255192.jpg",
-},
-    {
-  id: "stylus-pen-green-lion-3in1",
-  name: "STYLUS PEN GREEN LION 3in1",
-  price: 1550,
-  desc: "قلم لمس 3 في 1 من Green Lion (GL-PEN7) مصنوع من سبائك الألومنيوم، يتميز برؤوس قابلة للتبديل (جاف، قرص، وشبكي) مع غطاء مغناطيسي واستجابة دقيقة وسلسة وتوافق شامل مع مختلف الشاشات اللمسية.",
-  img: "https://i.ibb.co/XrqkxMjT/1790348217530.jpg",
-},
-    {
-  id: "clavier-jedel-k500",
-  name: "CLAVIER JEDEL K500",
-  price: 1550,
-  desc: "لوحة مفاتيح (كيبورد) سلكية من JEDEL تحتوي على 104 أزرار مع إضاءة خلفية RGB بـ 7 ألوان، تتميز بتصميم مريح وتجربة كتابة خفيفة وسلسة.",
-  img: "https://i.ibb.co/9m0Jfc7w/1790348236454.jpg",
-},
+    id: "gevo-p11-10000mah",
+    name: "GEVO P11 10000mAh",
+    price: 1600,
+    desc: "شاحن سفري (Power Bank) بسعة 10000 مللي أمبير بتصميم مدمج وأنيق، مزود بشاشة LED رقمية لعرض مستوى البطارية ودعم منافذ إدخال وإخراج متعددة بقدرة 5V/2A.",
+    img: "https://i.ibb.co/cch6HhdT/1790343959227.jpg",
+  },
+
+  // 4. مبرد هواتف
   {
-  id: "microphone-hoco-l20-t-c",
-  name: "MICROPHONE HOCO L20 T-C", //[span_0](start_span)[span_0](end_span)
-  price: 2250,
-  desc: "ميكروفون لاسلكي اتجاهي بمستقبل منفذ Type-C، مزود ببطارية سعة 60mAh تمنح استقلالية تشغيل من 3 إلى 4 ساعات مع مدة شحن تدوم ساعتين.", //[span_1](start_span)[span_1](end_span)
-  img: "https://i.ibb.co/B54rLPZK/1790345712008.jpg",
-},
-    {
-  id: "flash-disk-nh-32go",
-  name: "FLASH DISK NH 32GO", //[span_0](start_span)[span_0](end_span)
-  price: 1350,
-  desc: "ذاكرة فلاش USB بسعة 32 جيجابايت من New Horizon (LINA LD-01)، تتميز بهيكل معدني متين مقاوم للماء والصدمات وتصميم حديث مزود بحلقة تثبيت.", //[span_1](start_span)[span_1](end_span)
-  img: "Https://i.ibb.co/6cLZsTSN/1790345252326.jpg",
-},
+    id: "fast-cooling-hoco-gm26",
+    name: "FAST COOLING HOCO GM26",
+    price: 2200,
+    desc: "مبرد هواتف ذكية من HOCO لتبريد سريع بـ 3 مستويات سرعة، مزود بشاشة رقمية لمراقبة درجة الحرارة في الوقت الفعلي، ومناسب للهواتف بحجم من 4.5 إلى 7 بوصات.",
+    img: "https://i.ibb.co/C5KFRG5y/1790348226508.jpg",
+  },
+
+  // 5. مكبر صوت
   {
-  id: "flash-disk-nh-64go",
-  name: "FLASH DISK NH 64GO",
-  price: 1700,
-  desc: "ذاكرة فلاش USB بسعة 64 جيجابايت (Iron Drive ID-07) من New Horizon، تتميز بنقل بيانات عالي السرعة وتوافق واسع مع الحواسيب المحمولة والمكتبية والطابعات والكاميرات.",
-  img: "https://i.ibb.co/gL5QLMtX/1790420399493.jpg",
-},
+    id: "enceinte-mobiland-bt-26",
+    name: "ENCEINTE MOBILAND BT-26",
+    price: 2950,
+    desc: "مكبر صوت بلوتوث لاسلكي بقدرة 10 واط وتقنية Bluetooth 5.4، مزود ببطارية سعة 1200mAh تمنح زمن تشغيل من 2 إلى 4 ساعات مع مستوى صوت قوي ونقي.",
+    img: "https://i.ibb.co/fzjfMXVL/1790348242594.jpg",
+  },
+
+  // 6. ماوس
   {
-  id: "manette-sony-ps4",
-  name: "MANETTE SONY PS4",
-  price: 2700,
-  desc: "ذراع تحكم لاسلكي (DualShock 4) لجهاز بلايستيشن 4 باللون الأسود، مزود بسماعة داخلية، تقنية اهتزاز متقدمة، واستجابة سريعة عند الاتصال عبر USB.",
-  img: "https://i.ibb.co/nGbsvkd/1790349957346.jpg",
-},
+    id: "souris-hoco-gm14",
+    name: "SOURIS HOCO GM14",
+    price: 1250,
+    desc: "فأرة (ماوس) لاسلكية من HOCO تعمل بتقنية 2.4GHz ودقة 1200DPI، تتميز بوزن خفيف (60 جرام) وعمر افتراضي للأزرار يصل إلى 3 ملايين ضغطة.",
+    img: "https://i.ibb.co/hx9YsMfN/1790348249587.jpg",
+  },
+
+  // 7. شاحن
   {
-    id: "airpods-apple-3",
-    name: "AirPods Apple 3",
-    price: 1400,
-    desc: "AirPods الجيل الثالث، بلوتوث 5.1، اقتران تلقائي، علبة شحن MagSafe بسعة 30 ساعة، وقت قراءة 6 ساعات ومحادثة 4 ساعات.",
-    img: "https://i.ibb.co/bjmCCvqj/Gemini-Generated-Image-wtsbfkwtsbfkwtsb.jpg"
+    id: "chrg-samsung-pd-25w-new",
+    name: "CHRG. SAMSUNG PD 25W NEW",
+    price: 1850,
+    desc: "شاحن سريع من سامسونج بقدرة 25 واط مع كابل Type-C إلى Type-C، يتميز بأداء عالٍ ودعم للشحن السريع مع دخل جهد متعدد (100-240V).",
+    img: "https://i.ibb.co/KpTLWw5D/1790348255192.jpg",
+  },
+
+  // 8. قلم لمس
+  {
+    id: "stylus-pen-green-lion-3in1",
+    name: "STYLUS PEN GREEN LION 3in1",
+    price: 1550,
+    desc: "قلم لمس 3 في 1 من Green Lion (GL-PEN7) مصنوع من سبائك الألومنيوم، يتميز برؤوس قابلة للتبديل (جاف، قرص، وشبكي) مع غطاء مغناطيسي واستجابة دقيقة وسلسة وتوافق شامل مع مختلف الشاشات اللمسية.",
+    img: "https://i.ibb.co/XrqkxMjT/1790348217530.jpg",
+  },
+
+  // 9. كيبورد
+  {
+    id: "clavier-jedel-k500",
+    name: "CLAVIER JEDEL K500",
+    price: 1550,
+    desc: "لوحة مفاتيح (كيبورد) سلكية من JEDEL تحتوي على 104 أزرار مع إضاءة خلفية RGB بـ 7 ألوان، تتميز بتصميم مريح وتجربة كتابة خفيفة وسلسة.",
+    img: "https://i.ibb.co/9m0Jfc7w/1790348236454.jpg",
+  },
+
+  // 10. ميكروفون
+  {
+    id: "microphone-hoco-l20-t-c",
+    name: "MICROPHONE HOCO L20 T-C",
+    price: 2250,
+    desc: "ميكروفون لاسلكي اتجاهي بمستقبل منفذ Type-C، مزود ببطارية سعة 60mAh تمنح استقلالية تشغيل من 3 إلى 4 ساعات مع مدة شحن تدوم ساعتين.",
+    img: "https://i.ibb.co/B54rLPZK/1790345712008.jpg",
+  },
+
+  // 11. فلاش ديسك
+  {
+    id: "flash-disk-nh-32go",
+    name: "FLASH DISK NH 32GO",
+    price: 1350,
+    desc: "ذاكرة فلاش USB بسعة 32 جيجابايت من New Horizon (LINA LD-01)، تتميز بهيكل معدني متين مقاوم للماء والصدمات وتصميم حديث مزود بحلقة تثبيت.",
+    img: "Https://i.ibb.co/6cLZsTSN/1790345252326.jpg",
+  },
+
+  // 12. يد تحكم
+  {
+    id: "manette-sony-ps4",
+    name: "MANETTE SONY PS4",
+    price: 2700,
+    desc: "ذراع تحكم لاسلكي (DualShock 4) لجهاز بلايستيشن 4 باللون الأسود، مزود بسماعة داخلية، تقنية اهتزاز متقدمة، واستجابة سريعة عند الاتصال عبر USB.",
+    img: "https://i.ibb.co/nGbsvkd/1790349957346.jpg",
+  },
+
+  // 13. ماكينة حلاقة
+  {
+    id: "rasoir-kemei-2024",
+    name: "RASOIR KEMEI 2024",
+    price: 1100,
+    desc: "ماكينة حلاقة كهربائية من KEMEI بنموذج KM-2024، مزودة بمحرك قوي، هيكل من الأستانلس ستيل وABS، بطارية بمدة شحن 8 ساعات ووقت استخدام 50 دقيقة.",
+    img: "https://i.ibb.co/KxyQhnJx/Gemini-Generated-Image-gcrp1rgcrp1rgcrp.jpg",
+  },
+
+  // 14. حقيبة
+  {
+    id: "pochette-fashion-poitrine",
+    name: "POCHETTE FASHION POITRINE",
+    price: 1250,
+    desc: "حقيبة صدر وكتف عصرية مقاومة للماء وخفيفة الوزن، مزودة بقفل حماية ضد السرقة ومنفذ USB خارجي للشحن، مصنوعة من البوليستر والأبص عالي الجودة.",
+    img: "https://i.ibb.co/cSMJY0c4/Gemini-Generated-Image-1ydeme1ydeme1yde.jpg",
+  },
+
+  // 15. مكواة
+  {
+    id: "mini-electrique-iron-yb-005",
+    name: "MINI ELECTRIQUE IRON YB-005",
+    price: 1850,
+    desc: "مكواة بخار كهربائية مصغرة للاستخدام المنزلي والسفري (YB-005) بقوة 38 واط وسعة 50 مل، مزودة بنظام حماية ضد الاحتراق وقاعدة من سبائك الألومنيوم.",
+    img: "https://i.ibb.co/Q74cJrFw/Gemini-Generated-Image-3e2vsi3e2vsi3e2v.jpg",
+  },
+
+  // ====== ثانياً: باقي المنتجات مخلوطة ======
+
+  {
+    id: "airpods-joyroom-jr-tl11",
+    name: "AirPods JOYROOM JR-TL11",
+    price: 2900,
+    desc: "سماعات JOYROOM JR-TL11، بلوتوث 5.3، اقتران تلقائي، سعة علبة الشحن 240mAh، شحن 2.5 ساعة، وقت قراءة 6 ساعات ومحادثة 4 ساعات.",
+    img: "https://i.ibb.co/rGcJcb28/Gemini-Generated-Image-2rvthq2rvthq2rvt.jpg"
   },
   {
-    id: "airpods-hoco-ew84",
-    name: "AirPods HOCO EW84",
-    price: 1800,
-    desc: "سماعات HOCO EW84 لاسلكية، بلوتوث 5.3، اقتران تلقائي، سعة علبة الشحن 300mAh، شحن 1 ساعة، مدى 10 أمتار.",
-    img: "https://i.ibb.co/zT1L89yD/Gemini-Generated-Image-g7r3i2g7r3i2g7r3.jpg"
+    id: "joyroom-pbf15-10000",
+    name: "JOYROOM PBF15 10000mAh",
+    price: 3200,
+    desc: "باور بانك JOYROOM PBF15، سعة 10,000mAh، خرج حتى 22.5W، مخارج 2x USB-A، مدخل/مخرج USB-C، شحن سريع ذكي، شاشة LED رقمية.",
+    img: "https://i.ibb.co/LdRtC7ZF/Gemini-Generated-Image-p77e0yp77e0yp77e.jpg"
+  },
+  {
+    id: "tondeuse-kemei-232",
+    name: "TONDEUSE KEMEI 232",
+    price: 1150,
+    desc: "ماكينة تشذيب الشعر TONDEUSE KEMEI (موديل kM-232) بمحرك قوي وشاشة LED رقمية، بطارية بسعة 1500mAh وشحن سريع خلال 1.5 ساعة بقوة 5 واط.",
+    img: "https://i.ibb.co/3YdRG53k/Gemini-Generated-Image-5ec74q5ec74q5ec7.jpg",
+  },
+  {
+    id: "casque-hoco-w55-plus",
+    name: "CASQUE HOCO W55 PLUS",
+    price: 3700,
+    desc: "سماعة رأس لاسلكية رياضية بنظام صوت HiFi، تتميز ببطارية تدوم حتى 90 ساعة تشغيل، مدة شحن ساعتين، وتدعم بطاقة TF ووضع AUX مع ميزة الأوامر الصوتية.",
+    img: "https://i.ibb.co/WWcwHkBk/Gemini-Generated-Image-dkj0e3dkj0e3dkj0.jpg",
   },
   {
     id: "xo-pb312-10000",
@@ -117,11 +179,32 @@ export const products: Product[] = [
     img: "https://i.ibb.co/NzSCtCn/Gemini-Generated-Image-ozpf3gozpf3gozpf.jpg"
   },
   {
-    id: "xo-pr251-10000",
-    name: "XO PR251 10000mAh",
-    price: 2050,
-    desc: "باور بانك XO PR251، سعة 10,000mAh، سعة اسمية 5500mAh، طاقة إجمالية 37W، مدخل USB-C/Micro 5V/2A، مخارج USB-A1/A2 و USB-C، تصميم مدمج.",
-    img: "https://i.ibb.co/7xjX1Ft0/Gemini-Generated-Image-si4rjsi4rjsi4rjs.jpg"
+    id: "airpods-apple-3",
+    name: "AirPods Apple 3",
+    price: 1400,
+    desc: "AirPods الجيل الثالث، بلوتوث 5.1، اقتران تلقائي، علبة شحن MagSafe بسعة 30 ساعة، وقت قراءة 6 ساعات ومحادثة 4 ساعات.",
+    img: "https://i.ibb.co/bjmCCvqj/Gemini-Generated-Image-wtsbfkwtsbfkwtsb.jpg"
+  },
+  {
+    id: "tondeuse-kemei-1256",
+    name: "TONDEUSE KEMEI 1256",
+    price: 1900,
+    desc: "ماكينة تشذيب الشعر واللحية KEMEI (موديل kM-1256) بلون أسود وأزرق، مزودة بعجلة تحكم دقيقة للطول، محرك قوي، وبطارية تتطلب 8 ساعات شحن.",
+    img: "https://i.ibb.co/60ZsYF13/Gemini-Generated-Image-2hst3m2hst3m2hst.jpg",
+  },
+  {
+    id: "flash-disk-nh-64go",
+    name: "FLASH DISK NH 64GO",
+    price: 1700,
+    desc: "ذاكرة فلاش USB بسعة 64 جيجابايت (Iron Drive ID-07) من New Horizon، تتميز بنقل بيانات عالي السرعة وتوافق واسع مع الحواسيب المحمولة والمكتبية والطابعات والكاميرات.",
+    img: "https://i.ibb.co/gL5QLMtX/1790420399493.jpg",
+  },
+  {
+    id: "casque-hoco-w40",
+    name: "CASQUE HOCO W40",
+    price: 1250,
+    desc: "سماعة رأس بلوتوث 5.3 من HOCO ببطارية 200mAh تضمن 7 ساعات من الاستخدام المستمر، وضع استعداد 200 ساعة، وتدعم التشغيل السلكي عبر منفذ AUX.",
+    img: "https://i.ibb.co/mVY5LZxP/Gemini-Generated-Image-5v00fz5v00fz5v00.jpg",
   },
   {
     id: "qualev-p110-10000",
@@ -131,6 +214,34 @@ export const products: Product[] = [
     img: "https://i.ibb.co/x8rFPtdf/Gemini-Generated-Image-2g98me2g98me2g98.jpg"
   },
   {
+    id: "airpods-hoco-ew84",
+    name: "AirPods HOCO EW84",
+    price: 1800,
+    desc: "سماعات HOCO EW84 لاسلكية، بلوتوث 5.3، اقتران تلقائي، سعة علبة الشحن 300mAh، شحن 1 ساعة، مدى 10 أمتار.",
+    img: "https://i.ibb.co/zT1L89yD/Gemini-Generated-Image-g7r3i2g7r3i2g7r3.jpg"
+  },
+  {
+    id: "tondeuse-kemei-t9-5w",
+    name: "TONDEUSE KEMEI T9 5W",
+    price: 1000,
+    desc: "ماكينة تشذيب كلاسيكية عتيقة (Vintage T9) بشفرات من فولاذ الكربون القابل للتعديل لصفر مليمتر، شاشة LED للبطارية، وبطارية ليثيوم 1800mA تمنح ساعتي عمل.",
+    img: "https://i.ibb.co/PZLVY0Z2/Gemini-Generated-Image-msi2simsi2simsi2.jpg",
+  },
+  {
+    id: "airpods-joyroom-jr-pb1",
+    name: "AirPods JOYROOM JR-PB1",
+    price: 2900,
+    desc: "سماعات JOYROOM JR-PB1، بلوتوث 5.3، اقتران تلقائي، سعة علبة الشحن 350mAh، شحن 1.5 ساعة، وقت قراءة 6 ساعات ومحادثة 4 ساعات.",
+    img: "https://i.ibb.co/qLqMZXW8/Gemini-Generated-Image-tu6x5vtu6x5vtu6x.jpg"
+  },
+  {
+    id: "casque-deepbass-bt-h01",
+    name: "CASQUE DEEPBASS BT H01",
+    price: 4600,
+    desc: "سماعة رأس لاسلكية LDNIO H01 بنسخة بلوتوث 5.4، بطارية عملاقة بسعة 1000mAh تمنح وقت عمل يصل إلى 130 ساعة، مع منفذ شحن USB-C وصوت نقي وعميق.",
+    img: "https://i.ibb.co/hJSR0g1d/Gemini-Generated-Image-nhc0nsnhc0nsnhc0.jpg"
+  },
+  {
     id: "airpods-hoco-eq28",
     name: "AirPods HOCO EQ28",
     price: 2500,
@@ -138,11 +249,11 @@ export const products: Product[] = [
     img: "https://i.ibb.co/JRBNxg9Z/Gemini-Generated-Image-tffyhptffyhptffy.jpg"
   },
   {
-    id: "airpods-joyroom-jr-tl11",
-    name: "AirPods JOYROOM JR-TL11",
-    price: 2900,
-    desc: "سماعات JOYROOM JR-TL11، بلوتوث 5.3، اقتران تلقائي، سعة علبة الشحن 240mAh، شحن 2.5 ساعة، وقت قراءة 6 ساعات ومحادثة 4 ساعات.",
-    img: "https://i.ibb.co/rGcJcb28/Gemini-Generated-Image-2rvthq2rvthq2rvt.jpg"
+    id: "joyroom-jr-qp190-mini-10000",
+    name: "JOYROOM JR-QP190 MINI 10000mAh",
+    price: 3200,
+    desc: "باور بانك JOYROOM JR-QP190 MINI، سعة 10,000mAh، خرج حتى 20W، منافذ 2x USB-A و USB-C و USB Micro، شحن سريع ذكي، شاشة LED رقمية.",
+    img: "https://i.ibb.co/N2VT7wCp/Gemini-Generated-Image-p75u5xp75u5xp75u.jpg"
   },
   {
     id: "airpods-joyroom-t03s-plus",
@@ -152,11 +263,11 @@ export const products: Product[] = [
     img: "https://i.ibb.co/tMH09TMx/Gemini-Generated-Image-rbw7p5rbw7p5rbw7.jpg"
   },
   {
-    id: "airpods-joyroom-jr-pb1",
-    name: "AirPods JOYROOM JR-PB1",
-    price: 2900,
-    desc: "سماعات JOYROOM JR-PB1، بلوتوث 5.3، اقتران تلقائي، سعة علبة الشحن 350mAh، شحن 1.5 ساعة، وقت قراءة 6 ساعات ومحادثة 4 ساعات.",
-    img: "https://i.ibb.co/qLqMZXW8/Gemini-Generated-Image-tu6x5vtu6x5vtu6x.jpg"
+    id: "xo-pr251-10000",
+    name: "XO PR251 10000mAh",
+    price: 2050,
+    desc: "باور بانك XO PR251، سعة 10,000mAh، سعة اسمية 5500mAh، طاقة إجمالية 37W، مدخل USB-C/Micro 5V/2A، مخارج USB-A1/A2 و USB-C، تصميم مدمج.",
+    img: "https://i.ibb.co/7xjX1Ft0/Gemini-Generated-Image-si4rjsi4rjsi4rjs.jpg"
   },
   {
     id: "airpods-hoco-eq22",
@@ -173,13 +284,6 @@ export const products: Product[] = [
     img: "https://i.ibb.co/HfXzPQT5/Gemini-Generated-Image-a1hc3la1hc3la1hc.jpg"
   },
   {
-    id: "earldom-pd43-5000",
-    name: "EARLDOM PD43 5000mAh",
-    price: 3100,
-    desc: "بطارية خارجية صغيرة EARLDOM PD43، شحن سريع 15W، مثالية للهواتف والأجهزة اللوحية، تصميم مدمج وخفيف، متوافقة مع iPhones و Samsung Galaxy.",
-    img: "https://i.ibb.co/JwQJQS0t/Gemini-Generated-Image-q200tyq200tyq200.jpg"
-  },
-  {
     id: "airpods-joyroom-jr-t03s",
     name: "AirPods JOYROOM JR-T03S",
     price: 3200,
@@ -187,18 +291,11 @@ export const products: Product[] = [
     img: "https://i.ibb.co/rRM8GVqV/Gemini-Generated-Image-pg3qyjpg3qyjpg3q.jpg"
   },
   {
-    id: "joyroom-pbf15-10000",
-    name: "JOYROOM PBF15 10000mAh",
-    price: 3200,
-    desc: "باور بانك JOYROOM PBF15، سعة 10,000mAh، خرج حتى 22.5W، مخارج 2x USB-A، مدخل/مخرج USB-C، شحن سريع ذكي، شاشة LED رقمية.",
-    img: "https://i.ibb.co/LdRtC7ZF/Gemini-Generated-Image-p77e0yp77e0yp77e.jpg"
-  },
-  {
-    id: "joyroom-jr-qp190-mini-10000",
-    name: "JOYROOM JR-QP190 MINI 10000mAh",
-    price: 3200,
-    desc: "باور بانك JOYROOM JR-QP190 MINI، سعة 10,000mAh، خرج حتى 20W، منافذ 2x USB-A و USB-C و USB Micro، شحن سريع ذكي، شاشة LED رقمية.",
-    img: "https://i.ibb.co/N2VT7wCp/Gemini-Generated-Image-p75u5xp75u5xp75u.jpg"
+    id: "earldom-pd43-5000",
+    name: "EARLDOM PD43 5000mAh",
+    price: 3100,
+    desc: "بطارية خارجية صغيرة EARLDOM PD43، شحن سريع 15W، مثالية للهواتف والأجهزة اللوحية، تصميم مدمج وخفيف، متوافقة مع iPhones و Samsung Galaxy.",
+    img: "https://i.ibb.co/JwQJQS0t/Gemini-Generated-Image-q200tyq200tyq200.jpg"
   },
   {
     id: "airpods-hoco-eq27",
@@ -271,6 +368,13 @@ export const products: Product[] = [
     img: "https://i.ibb.co/v6K154Yd/Gemini-Generated-Image-lwlzb2lwlzb2lwlz.jpg"
   },
   {
+    id: "casque-hoco-w65-45h",
+    name: "CASQUE HOCO W65 45H",
+    price: 3900,
+    desc: "سماعة رأس لاسلكية من HOCO بتقنية Bluetooth 5.4 وعزل فعال للصوت (ANC)، بطارية بسعة 400mAh تمنح حتى 45 ساعة تشغيل (32 ساعة مع وضع ANC).",
+    img: "https://i.ibb.co/Dg1wxR4k/Gemini-Generated-Image-8d9k538d9k538d9k.jpg",
+  },
+  {
     id: "joyroom-w020-10000",
     name: "JOYROOM W020 10000mAh",
     price: 5000,
@@ -305,12 +409,11 @@ export const products: Product[] = [
     desc: "باور بانك Anker A1653، سعة 5000mAh، شحن سريع 22.5W، تصميم مدمج وخفيف، مثالي للتنقل، متوافق مع Samsung Galaxy والأجهزة الأخرى.",
     img: "https://i.ibb.co/bg6wG5r3/Gemini-Generated-Image-2xaz1j2xaz1j2xaz.jpg"
   },
-    {
-  id: "airpods-saiva-t50",
-  name: "AirPods SAIVA T50",
-  price: 2300,
-  desc: "سماعات لاسلكية مريحة وثابتة مع اقتران تلقائي، وزمن شحن يدوم ساعتين، تأتي مع حافظة حماية سيليكون مقاومة للصدمات والغبار.",
-  img: "https://i.ibb.co/sJprhg6K/1790426454319.jpg",
-},
-
+  {
+    id: "airpods-saiva-t50",
+    name: "AirPods SAIVA T50",
+    price: 2300,
+    desc: "سماعات لاسلكية مريحة وثابتة مع اقتران تلقائي، وزمن شحن يدوم ساعتين، تأتي مع حافظة حماية سيليكون مقاومة للصدمات والغبار.",
+    img: "https://i.ibb.co/sJprhg6K/1790426454319.jpg",
+  },
 ];
